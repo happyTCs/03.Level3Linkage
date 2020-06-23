@@ -8,9 +8,13 @@ Github 的使用
 4、git命令
 进入文件目录，在文件中点击鼠标右键选择bash控制台进入
 git init
+
 git add .
+
 git commit -m "first commit"
+
 git remote add level3 "https://github.com:happyTCs/Level3Linkage.git"
+
 git push -u level3 master
 备注：
 git init
