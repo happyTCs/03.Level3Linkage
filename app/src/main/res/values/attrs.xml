@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularProgress">
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SettingItemView">
+        <attr name="headline" format="string" />
+        <attr name="offText" format="string" />
+        <attr name="onText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="TipNumButton">
+        <attr name="messageNum" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <attr name="paddingTopBottom" format="dimension"/>
+        <attr name="startDelayTime" format="integer"/>
+        <attr name="reRepeatDelayTime" format="integer"/>
+        <attr name="itemAnimationTime" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="SpreadView">
+        <!--中心圆颜色-->
+
+        <attr name="spread_center_color" format="color"/>
+
+        <!--中心圆半径-->
+
+        <attr name="spread_radius" format="integer"/>
+
+        <!--扩散圆颜色-->
+
+        <attr name="spread_spread_color" format="color"/>
+
+        <!--扩散间距-->
+
+        <attr name="spread_distance" format="integer"/>
+
+        <!--扩散最大半径-->
+
+        <attr name="spread_max_radius" format="integer"/>
+
+        <!--扩散延迟间隔-->
+
+        <attr name="spread_delay_milliseconds" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="inputBox">
+        <attr name="passwordCount" format="integer"/>
+        <attr name="stokeColor" format="color"/>
+        <attr name="symbolColor" format="color"/>
+        <attr name="symbolRadius" format="dimension"/>
+        <attr name="inputBoxStroke" format="dimension"/>
+
+    </declare-styleable>
+    <declare-styleable name="materialStatusProgressAttr">
+        <attr name="arcColor" format="reference|color"/>
+        <attr name="progressBarBorderWidth" format="dimension"/>
+    </declare-styleable>
+
+    <!--建制村投递日历-->
+    <style name="CalendarDefault">
+        <item name="mBgMonth">#00000000</item>
+        <item name="mBgWeek">#00000000</item>
+        <item name="mBgDay">#00000000</item>
+        <item name="mBgDot">#00000000</item>
+        <item name="mTextColorMonth">#000000</item>
+        <item name="mTextColorWeek">#a3a3a3</item>
+        <item name="mTextColorDay">#000000</item>
+        <item name="mPopupTextColor">#FFFFFF</item>
+        <item name="mSelectTextColor">#000000</item>
+        <item name="mSelectBg">#00000000</item>
+        <item name="mCurrentTextColor">#000000</item>
+        <item name="mTextSizeMonth">15dp</item>
+        <item name="mTextSizeWeek">12sp</item>
+        <item name="mTextSizeDay">13sp</item>
+        <item name="mTextSizePopup">14sp</item>
+        <item name="mMonthRowL">@drawable/arrow_left</item>
+        <item name="mMonthRowR">@drawable/arrow_right</item>
+        <item name="mPopupBg">@drawable/popup_bg</item>
+        <item name="mMonthRowSpace">40dp</item>
+        <item name="mSelectRadius">10dp</item>
+        <item name="mMonthDownSpace">30dp</item>
+        <item name="mMonthUpSpace">20dp</item>
+        <item name="mMonthTopSpace">25dp</item>
+        <item name="mLineSpace">15dp</item>
+        <item name="mDotSpace">4dp</item>
+        <item name="mBigDotSpace">0dp</item>
+        <item name="mDotRadius">3.5dp</item>
+        <item name="mBigDotRadius">10dp</item>
+        <item name="mPopupSpace">2dp</item>
+        <item name="mMonthFormat">MM月</item>
+    </style>
+    <declare-styleable name="ClockInCalendarView">
+        <!--这四个颜色分别是月份、星期、日期、任务的背景色，只是方便调试测量时使用，正式试用时可配置透明色-->
+        <attr name="mBgMonth"
+            format="color"/>
+        <attr name="mBgWeek"
+            format="color"/>
+        <attr name="mBgDay"
+            format="color"/>
+        <attr name="mBgDot"
+            format="color"/>
+
+        <attr name="mTextColorMonth"
+            format="color"/>           <!--标题字体颜色-->
+        <attr name="mTextColorWeek"
+            format="color"/>            <!--星期字体颜色-->
+        <attr name="mTextColorDay"
+            format="color"/>             <!--日期字体颜色-->
+        <attr name="mSelectTextColor"
+            format="color"/>          <!--选中日期字体颜色-->
+        <attr name="mSelectBg"
+            format="color"/>                 <!--选中日期背景-->
+        <attr name="mCurrentTextColor"
+            format="color"/>                <!--当天日期字体颜色-->
+        <attr name="mPopupTextColor"
+            format="color"/>                <!--弹窗字体颜色-->
+
+        <attr name="mTextSizeMonth"
+            format="dimension"/>        <!--标题字体大小-->
+        <attr name="mTextSizeWeek"
+            format="dimension"/>         <!--星期字体大小-->
+        <attr name="mTextSizeDay"
+            format="dimension"/>          <!--日期字体大小-->
+        <attr name="mTextSizePopup"
+            format="dimension"/>          <!--弹窗字体大小-->
+
+        <attr name="mMonthRowL"
+            format="reference"/>            <!--月份箭头-->
+        <attr name="mMonthRowR"
+            format="reference"/>            <!--月份箭头-->
+        <attr name="mPopupBg"
+            format="reference"/>            <!--弹窗背景图-->
+        <attr name="mMonthRowSpace"
+            format="dimension"/>
+        <attr name="mMonthTopSpace"
+            format="dimension"/>
+
+        <attr name="mSelectRadius"
+            format="dimension"/>         <!--选中日期背景半径-->
+        <attr name="mMonthUpSpace"
+            format="dimension"/>            <!--标题月份下间隔-->
+        <attr name="mMonthDownSpace"
+            format="dimension"/>            <!--标题月份下间隔-->
+        <attr name="mLineSpace"
+            format="dimension"/>             <!--日期行间距-->
+        <attr name="mDotSpace"
+            format="dimension"/>             <!--小圆点上下间距-->
+
+        <attr name="mBigDotSpace"
+            format="dimension"/>             <!--大圆点上下间距-->
+
+        <attr name="mPopupSpace"
+            format="dimension"/>             <!--弹窗下间距-->
+        <attr name="mDotRadius"
+            format="dimension"/>            <!--小圆点半径-->
+
+        <attr name="mBigDotRadius"
+            format="dimension"/>            <!--大圆点半径-->
+
+
+
+        <attr name="mMonthFormat"
+            format="string"/>           <!--title显示的月份格式-->
+    </declare-styleable>
+
+
+    <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension"/>
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+    </declare-styleable>
+</resources>

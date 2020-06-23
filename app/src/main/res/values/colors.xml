@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--index-->
+    <color name="toolbar">#2155D9</color>
+    <color name="txtbackground">#FF666666</color>
+    <color name="viewbackground">#F0F4F8</color>
+
+
+    <color name="category_left_line">#F8F8F8</color>
+    <color name="category_left_circle">#FFA500</color>
+    <color name="layout_left_unselect_bg">#F0EFF3</color>
+    <color name="divide_line">#F2F2F2</color>
+    <color name="blue">#0000FF</color><!--蓝色 -->
+    <color name="colorSixF">#FFFFFF</color>
+    <color name="deepskyblue">#00BFFF</color><!--深天蓝色 -->
+    <color name="colorSix6">#666666</color>
+    <color name="colorSixA">#AAAAAA</color>
+    <color name="colorSixC">#CCCCCC</color>
+    <color name="colorSixD">#DDDDDD</color>
+    <color name="colorSix3">#333333</color>
+    <color name="colorSix9">#999999</color>
+    <color name="colorThreeF7">#F7F7F7</color>
+    <color name="color2F6A">#FFAAAAAA</color>
+    <color name="color_while">#D8E2E9</color>
+    <color name="color_bule">#4D93FD</color>
+    <color name="color_bule_title_bg">#FF5B6FD2</color>
+    <!--cart_list-->
+    <color name="cart_nogoods_bg">#EEEEEE</color>
+    <color name="dialog_clear_cart_textcolor">#303F9F</color>
+    <!--Handover query-->
+    <color name="color_title">#5B6FD2</color>
+    <color name="title_textcolor">#FFFFFF</color>
+    <color name="ground_back">#FFFFFF </color>
+    <color name="ground_backtitle">#E8EEF3 </color>
+    <color name="ground_back_text">#2196F3 </color>
+    <!--pda_deliver-->
+    <color name="textcolor_checked">#45C01A</color>
+    <color name="textcolor">#BEBEBE</color>
+    <color name="main_tab_bg">#F7F7F8</color>
+    <color name="btn_appropriate">#CC0000</color>
+
+    <color name="bn_login">#4d93fd</color>
+    <color name="bn_login2">#a7a8aa</color>
+
+    <color name="down_button_color">#303FFD</color>
+    <color name="bottom">#BDC6F3</color>
+    <color name="rl_knowledge_list_background">#F5F5F5</color>
+
+    <color name="btn_normal">#4D93FD</color>
+    <color name="btn_press">#5B6FD2</color>
+    <color name="colorF">#FFFFFF</color>
+    <color name="colorC">#CCCCCC</color>
+    <!--Pda主界面 -->
+    <color name="no_color">#00000000 </color>
+    <color name="color_tv_black">#D7DDE2 </color>
+    <color name="even_color">#EBEFF6</color>
+
+    <color name="themecolor">#4c92fc</color>
+
+    <color name="btn_pressed_white_text_blue">#EDF4FF</color>
+    <color name="background">#E8EEF3</color>
+    <color name="color_red">#FC8346</color>
+    <color name="color_blue">#7FB6FA</color>
+    <color name="line_color">#D8E2E9</color>
+    <color name="edit_text_hint_color">#BBBBBB</color>
+    <color name="green">#00C087 </color>
+    <color name="little_green">#DFF3F0</color>
+    <color name="btn_dark_blue">#387BE1</color>
+    <color name="btn_blue">#4D93FD</color>
+    <color name="bg_color">#F5F5F5 </color>
+    <color name="color_lv_title">#D8E2E9</color>
+
+    <color name="colorF5">#F5F5F5</color>
+    <color name="colorDeliverMailRevoke">#FC8346</color>
+
+    <color name="content_color">#666666</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="login_button_background">#71c297</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewpager_bottom_point">#5B6FD2</color>
+    <color name="viewpager_bottom_graypoint">#D8D8D8</color>
+
+    <!--drawerlayout-->
+    <color name="bg_drawerlayout">#D8E2E9</color>
+
+    <color name="MyDialog1BkGrColor">#deeeff</color>
+
+    <!--gxl-->
+    <color name="sort_code_text">#FC8346</color>
+    <color name="login_bg">#5B6FD2</color>
+    <color name="textOrder">#FC8346</color>
+    <color name="button_unClick_bg">#C8D2D8</color>
+    <color name="colorSix15">#151515</color>
+    <color name="mark_green">#00C087</color>
+    <color name="mark_red">#E0463C</color>
+    <color name="bg_white">#FFFFFF</color>
+
+
+    <!--zyg-->
+    <color name="colorWhite">#ffffffff</color>
+    <color name="div_unpack_start_activity_background">#D8E2E9</color>
+    <color name="div_unpack_start_activity_title_background">#5B6FD2</color>
+    <color name="div_unpack_start_activity_title_textColor">#FFFFFF</color>
+    <color name="div_unpack_start_activity_edit_background">#FFFFFF</color>
+    <color name="div_unpack_start_activity_upper_part_container">#FFFFFF</color>
+    <color name="div_unpack_start_activity_upper_part_scanno_textcolor">#FF999999</color>
+    <color name="div_unpack_start_activity_upper_part_scanno_show_textcolor">#FF333333</color>
+    <color name="div_unpack_start_activity_below_part_listview_title_background">#F5F5F5</color>
+    <color name="div_unpack_start_activity_below_part_listview_title">#FF333333</color>
+    <color name="div_unpack_start_activity_below_listview_background">#FFFFFF</color>
+    <color name="div_unpack_start_activity_below_part_post_num_part_background">#FFFFFF</color>
+    <color name="div_unpack_start_activity_below_part_advanceno_textColor">#FF999999</color>
+    <color name="div_unpack_start_activity_below_part_advanceno_show_textColor">#FF151515</color>
+    <color name="div_unpack_start_activity_button_patch_textColor">#FF666666</color>
+    <color name="div_unpack_start_activity_button_check_textColor">#FFFFFF</color>
+    <color name="div_unpack_start_listview_item_background">#F5F5F5</color>
+    <color name="div_unpack_start_listview_item_textview_color">#FF666666</color>
+    <color name="div_unpack_start_color_background">#C8D2D8</color>
+    <color name="div_unpack_start_button_unclickable">#C8D2D8</color>
+    <color name="div_unpack_start_patch_button_text_color">#FF666666</color>
+    <color name="div_unpack_start_patch_button_text_color_white">#FFFFFF</color>
+    <color name="pickup_mark_code_logicgridnum_text_color">#FC8346</color>
+
+    <!--揽收发运装车-->
+    <color name="ground_back_title">#E8EEF3</color>
+    <color name="ground_title">#D8D8D8</color>
+
+    <color name="text_content">#333333</color>
+    <color name="change_pwd_content">#E0463C</color>
+    <color name="change_pwd_content2">#666666</color>
+    <color name="rbtxtselectortrue"> #487BFF</color>
+    <color name="rbtxtselectorfalse">#FF9A9A9A</color>
+    <color name="rbcommontxtselectortrue"> #FFFFFF</color>
+    <color name="rbcommontxtselectorfalse">#FFFFFF</color>
+
+    <!--文字主色 //右侧文字-->
+    <color name="color_text_main">#333333</color>
+    <!--文字辅色 //左侧文字 主要引用666666-->
+    <color name="color_text_six">#666666</color>
+    <color name="color_text_auxiliary">#999999</color>
+
+    <!--输入框hint-->
+    <color name="edit_text_hint">#BBBBBB</color>
+
+    <!--按钮默认-->
+    <color name="button_default">#4D93FD</color>
+
+    <color name="C_ff0000">#FF0000</color>
+    <color name="C_ff6666">#FF6666</color>
+
+    <color name="transparent_white">#ddffffff</color>
+    <color name="transparent_orange">#ddff9933</color>
+
+
+    <!-- QR_Code -->
+    <color name="result_image_border">#ffffffff</color>
+    <color name="system_bar_color">#fed952</color>
+    <color name="preview_mock">#9a000000</color>
+    <color name="color_afff">#afff</color>
+
+    <!--MyPicker-->
+    <color name="date_picker_bg">#FFFFFF</color>
+    <color name="date_picker_divider">#11112233</color>
+    <color name="date_picker_text_light">#5B6FD2</color>
+    <color name="date_picker_text_dark">#333333</color>
+
+    <color name="main_bg">#F0F0F0</color>
+    <color name="select_title_text">#B0B0B0</color>
+    <color name="current_time_bg">#FFFFFF</color>
+    <color name="current_time_text">#666666</color>
+    <color name="selected_time_text">#4D93FD</color>
+    <color name="bg_blue_query">#4D93FD</color>
+
+    <color name="text_blue">#FF4D93FD</color>
+    <color name="text_orange">#FFFC8346</color>
+    <color name="text_green">#FF00C087</color>
+    <color name="color_light">#9BB7FF</color>
+    <color name="color_ashen">#EFF2F5</color>
+    <!--toast背景-->
+    <color name="bg_toast">#000000</color>
+</resources>

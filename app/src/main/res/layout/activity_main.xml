@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>-->
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/butn_site"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+       >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/title_distance"
+            android:layout_height="@dimen/title_distance"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/site" />
+
+        <TextView
+            android:id="@+id/text_site1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_distance"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/ground_back"
+            android:ellipsize="end"
+            android:maxEms="9"
+            android:singleLine="true"
+            android:textSize="@dimen/textSize_smaller" />
+        <ImageView
+            android:id="@+id/image_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/skip_arrows"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/text_site"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_distance"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/ground_back"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="@string/btn_site"
+            android:textSize="@dimen/textSize_small"
+            android:textColor="@color/colorSix3"/>
+    </RelativeLayout>
+
+    <TextView
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <chinapost.cn.level3.CityPicker
+        android:id="@+id/citypicker"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center" >
+    </chinapost.cn.level3.CityPicker>
+</LinearLayout>
+</layout>

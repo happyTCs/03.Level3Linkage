@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ground_backtitle"
+      android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@color/colorSixF">
+
+        <Button
+            android:id="@+id/btn_pop_address_cencel"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="取消" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择寄达地区"
+            android:textColor="@color/colorSix3"/>
+        <RelativeLayout
+            android:id="@+id/img_search"
+            android:layout_width="@dimen/header_height"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/btn_pop_address_enter"
+            android:layout_toStartOf="@+id/btn_pop_address_enter">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/search" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_pop_address_enter"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@color/ground_back_text" />
+    </RelativeLayout>
+
+
+</LinearLayout>

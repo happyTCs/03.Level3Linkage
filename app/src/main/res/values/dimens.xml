@@ -1,0 +1,107 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_23">23.0sp</dimen>
+
+    <dimen name="small_margin">16dp</dimen>
+    <dimen name="medium_margin">32dp</dimen>
+    <dimen name="big_margin">48dp</dimen>
+
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="activity_horizontal_padding">8dp</dimen>
+    <dimen name="activity_vertical_padding">8dp</dimen>
+
+    <!--category-->
+    <dimen name="title_left_img_size">5dp</dimen>
+    <dimen name="left_child_text_size">12sp</dimen>
+
+    <!--pulltorefresh-->
+    <dimen name="textSize_small">14sp</dimen>
+    <dimen name="textSize_smaller">12sp</dimen>
+    <dimen name="textSize_smallest">10sp</dimen>
+    <dimen name="bold_divider_height">10dp</dimen>
+    <dimen name="thin_divider_height">1dp</dimen>
+
+    <!--header-->
+    <dimen name="header_title_size">16sp</dimen>
+    <dimen name="header_back_marginleft">10dp</dimen>
+    <dimen name="header_height">48dp</dimen>
+
+    <!--order-->
+    <dimen name="order_img_size">80dp</dimen>
+
+    <!--Handover query-->
+    <dimen name="title_distance">16dp</dimen>
+    <dimen name="barback_distance">30dp</dimen>
+    <dimen name="view_title">12dp</dimen>
+    <dimen name="tv_size">14dp</dimen>
+    <dimen name="image_distance">18dp</dimen>
+    <dimen name="textview_distance">16dp</dimen>
+    <dimen name="edit_distance">124dp</dimen>
+    <dimen name="edit_dis">15dp</dimen>
+
+    <dimen name="dialog_padding">25dp</dimen>
+
+    <dimen name="dialog_angle">5dp</dimen>
+
+    <!--Drawerlayout-->
+    <dimen name="head_pic_wh">60dp</dimen>
+    <dimen name="flag_pic_wh">16dp</dimen>
+    <dimen name="icon_jump_wh">13dp</dimen>
+    <dimen name="text_name">14sp</dimen>
+    <dimen name="text_address">12sp</dimen>
+    <dimen name="margin_1_level">16dp</dimen>
+    <dimen name="margin_2_level">40dp</dimen>
+    <dimen name="margin_3_level">12dp</dimen>
+    <dimen name="margin_4_level">11dp</dimen>
+    <dimen name="margin_5_level">15dp</dimen>
+    <dimen name="margin_6_level">17.7dp</dimen>
+
+
+
+
+    <!--zyg:按钮 是,否  高度,宽度;-->
+    <dimen name="blue_button_height">96dp</dimen>
+    <dimen name="blue_button_width">280dp</dimen>
+
+    <!--zyg:按钮 确定  高度,宽度;-->
+    <dimen name="blue_check_height">88dp</dimen>
+    <dimen name="blue_check_width">400dp</dimen>
+
+    <!--zyg:自定义的对话框宽度 和高度-->
+    <dimen name="self_dialog_height"> 190dp</dimen>
+    <dimen name="self_dialog_width"> 235dp</dimen>
+
+    <!--zyg:自定义的对话框字体大小-->
+    <dimen name="self_dialog_textsize"> 30sp</dimen>
+
+    <dimen name="track"> 44dp</dimen>
+
+    <!--gxl:基准UI-->
+    <dimen name="standard_small_font_size">12sp</dimen>
+    <dimen name="standard_font_size">14sp</dimen>
+    <dimen name="standard_middle_font_size">16sp</dimen>
+    <dimen name="standard_big_font_size">20sp</dimen>
+    <dimen name="standard_line_spacing">6dp</dimen>
+    <dimen name="standard_word_spacing">12dp</dimen>
+    <dimen name="standard_padding">12dp</dimen>
+    <dimen name="standard_line_height">1dp</dimen>
+    <dimen name="textSize_big">18sp</dimen>
+    <dimen name="textSize_medium">16sp</dimen>
+
+    <dimen name="material_status_progress_border">3dp</dimen>
+
+    <dimen name="textsizi">16sp</dimen>
+    <dimen name="dimens_0dp">0dp</dimen>
+    <dimen name="dimens_20dp">20dp</dimen>
+    <dimen name="dimens_16dp">16dp</dimen>
+    <dimen name="fontsize_18sp">18sp</dimen>
+    <dimen name="fontsize_16sp">16sp</dimen>
+    <dimen name="dimens_36dp">36dp</dimen>
+    <dimen name="dimens_10dp">10dp</dimen>
+    <dimen name="dimens_13dp">13dp</dimen>
+    <dimen name="dimens_180dp">180dp</dimen>
+    <dimen name="dimens_11dp">11dp</dimen>
+</resources>
